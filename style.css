@@ -1,0 +1,68 @@
+body {
+    background-image: url("wall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Sans-serif, Arial;
+    font-size: 5vw;
+    color: white;
+  }
+
+  img {
+    border-radius: 10px;
+    border: 0.5em solid;
+    border-color: rgba(222, 203, 153, 0.3);
+  }
+  
+iframe {
+    width: 90%;
+    height: 10em;
+    border-radius: 10px;
+    border: 0.5em solid;
+    border-color: rgba(222, 203, 153, 0.3);
+  }
+
+button {
+    background-color: rgba(222, 203, 153, 0.3);
+    color: white;
+    width: 95%;
+    padding: 5%;
+    border-radius: 10px;
+    font-size: 5vw;
+    border: none;
+  }
+
+.block {
+    border: 5px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    position: relative;
+  }
+
+.block > p {
+      color:white;
+      position: absolute;
+      padding-left: 15%;
+      padding-right: 30%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      font-size: 150%;
+  }
+  .block > span {
+    color:white;
+    position: absolute;
+    padding-left: 15%;
+    padding-right: 30%;
+    padding-top: 25%;
+    padding-bottom: 5%;
+    font-size: 80%;
+}
+
+.buttonAct:hover {
+    background-color: rgba(214, 186, 111, 0.3);
+    box-shadow: 0 5px rgba(214, 186, 111, 0.3);
+    transform: translateY(5px);
+  }
