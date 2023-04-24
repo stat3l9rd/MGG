@@ -7,7 +7,7 @@ body {
     font-size: 5vw;
   }
 
-  img {
+img {
     border-radius: 10px;
     border: 0.5em solid;
     border-color: rgba(222, 203, 153, 0.3);
@@ -41,7 +41,7 @@ button {
     position: relative;
   }
 
-.block > p {
+ .block > p {
       color:white;
       position: absolute;
       padding-left: 15%;
@@ -50,7 +50,8 @@ button {
       padding-bottom: 5%;
       font-size: 150%;
   }
-  .block > span {
+
+ .block > span {
     color:white;
     position: absolute;
     padding-left: 15%;
@@ -60,7 +61,7 @@ button {
     font-size: 80%;
 }
 
-.buttonAct:hover {
+ .buttonAct:hover {
     background-color: rgba(214, 186, 111, 0.3);
     box-shadow: 0 5px rgba(214, 186, 111, 0.3);
     transform: translateY(5px);
